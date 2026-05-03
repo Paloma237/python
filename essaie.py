@@ -1,4 +1,4 @@
-#déclaration des variables
+"""#déclaration des variables
 a=5
 b=2
 m=a/b
@@ -82,7 +82,7 @@ while tentatives != nombre_secret:
 #dessiner un triangle avec les étoiles
 hauteur=int(input("entrez la hauteur du triangle: "))
 for i in range(1,hauteur+1):
-    print("*"*i)    
+    print("*"*i)    """
 # fonction calculer la moyenne de 5 nombres   
 def moyenne(notes):
     total = 0
@@ -91,3 +91,4 @@ def moyenne(notes):
     moyenne = total / len(notes)
     print(f"la moyenne est: {moyenne}")
     return moyenne
+
